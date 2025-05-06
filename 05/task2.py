@@ -1,0 +1,36 @@
+def print_checkpoint(message, data):
+    """Функція друку контрольної точки"""
+    print(f"Контрольна точка - {message}: {data}")
+
+def longest_increasing_subsequence(sequence):
+    longest = []  
+    current = []  
+    
+    for i in range(len(sequence)):
+        #виклик функції друку контрольної точки
+        print_checkpoint("Обробляється число", sequence[i])
+        
+        if i == 0 or sequence[i] > sequence[i - 1]:
+            current.append(sequence[i])  #додаємо число до поточної підпослідовності
+        else:
+            if len(current) > len(longest):
+                longest = current  #оновлення найдовшої підпослідовності
+            current = [sequence[i]]  #початок нової підпослідовності
+        
+        #виклик функції друку контрольної точки
+        print_checkpoint("Поточна зростаюча підпослідовність", current)
+    
+    if len(current) > len(longest):
+        longest = current  #оновлення найдовшої підпослідовності, якщо потрібно
+    
+    return longest
+
+#зчитування послідовності чисел
+numbers = list(map(int, input("Введіть послідовність чисел через пробіл: ").split()))
+
+#виклик функції друку контрольної точки
+print_checkpoint("Введена послідовність", numbers)
+
+result = longest_increasing_subsequence(numbers)
+
+print(f"Найдовша зростаюча підпослідовність: {result}")
