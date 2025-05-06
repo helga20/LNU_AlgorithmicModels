@@ -1,0 +1,11 @@
+D:\Навчання\Магістратура\Алгоритмічні моделі\06\Movement\bin\Debug\Movement.exe.config
+D:\Навчання\Магістратура\Алгоритмічні моделі\06\Movement\bin\Debug\Movement.exe
+D:\Навчання\Магістратура\Алгоритмічні моделі\06\Movement\bin\Debug\Movement.pdb
+D:\Навчання\Магістратура\Алгоритмічні моделі\06\Movement\obj\Debug\Movement.csproj.AssemblyReference.cache
+D:\Навчання\Магістратура\Алгоритмічні моделі\06\Movement\obj\Debug\Movement.csproj.SuggestedBindingRedirects.cache
+D:\Навчання\Магістратура\Алгоритмічні моделі\06\Movement\obj\Debug\Movement.Properties.Resources.resources
+D:\Навчання\Магістратура\Алгоритмічні моделі\06\Movement\obj\Debug\Movement.csproj.GenerateResource.cache
+D:\Навчання\Магістратура\Алгоритмічні моделі\06\Movement\obj\Debug\Movement.csproj.CoreCompileInputs.cache
+D:\Навчання\Магістратура\Алгоритмічні моделі\06\Movement\obj\Debug\Movement.exe
+D:\Навчання\Магістратура\Алгоритмічні моделі\06\Movement\obj\Debug\Movement.pdb
+D:\Навчання\Магістратура\Алгоритмічні моделі\06\Movement\obj\Debug\Movement.Form1.resources
